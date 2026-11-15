@@ -1,0 +1,9 @@
+---
+nfs:
+  path: /volume1/data
+  server: 192.168.68.3
+
+storageClass:
+  defaultClass: true
+
+  accessModes: ReadWriteMany
